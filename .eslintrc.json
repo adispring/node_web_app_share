@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "strict": 0,
+    "no-underscore-dangle": ["error", { "allow": ["__"] }],
+    "new-cap": ["error", { "capIsNew": false }],
+    "no-console": 0,
+    "no-confusing-arrow": ["error", { "allowParens": true }]
+  },
+  "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "experimentalObjectRestSpread": true
+      }
+  }
+}
